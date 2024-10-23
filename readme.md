@@ -49,10 +49,13 @@ Download the script named `cladogram_matrix_autocorrection.py` from this reposit
 
 Update the paths in the command below and run it in the Terminal:
 
+I think it's a good idea to not have spaces in the file names. e.g. use 'input_folder' instead of 'input folder'
+
+
 ```bash
-source_folder="/Users/ruizhang/Desktop/input folder"
-excel_template="/Users/ruizhang/Desktop/Correction matrix EN Prot - 2024 password removed.xlsx"
-target_folder="/Users/ruizhang/Desktop/output folder"
+source_folder="/Users/ruizhang/Desktop/input_folder"
+excel_template="/Users/ruizhang/Desktop/Correction_matrix.xlsx"
+target_folder="/Users/ruizhang/Desktop/output_folder"
 
 python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$target_folder"
 ```
@@ -73,11 +76,10 @@ python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$
 ## Example Command
 
 ```bash
-source_folder="/Users/ruizhang/Desktop/input folder"
-excel_template="/Users/ruizhang/Desktop/Correction matrix EN Prot - 2024 password removed.xlsx"
-target_folder="/Users/ruizhang/Desktop/output folder"
+source_folder="/Users/ruizhang/Desktop/input_folder" excel_template="/Users/ruizhang/Desktop/Correction_matrix.xlsx"
+target_folder="/Users/ruizhang/Desktop/output_folder"
 
 python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$target_folder"
 ```
 
-This will process all files in the specified `input folder` and save the corrected PDFs in the `output folder`.
+This will process all files in the specified `input_folder` and save the corrected PDFs in the `output_folder`.
