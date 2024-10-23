@@ -64,10 +64,6 @@ python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$
 3. Extracts the content of cell `H1` from each student's file to name the output PDF.
 4. Saves the corrected matrix in the specified `output folder` with a filename in the format `XX_corrected.pdf`, where `XX` is the value from cell `H1`.
 
-## Troubleshooting
-
-- **Full Disk Access Issues**: If you encounter repeated "Grant Access" prompts, ensure that the Terminal app has been granted Full Disk Access in your system's Privacy settings.
-- **Compatibility Issues**: The script is optimized for macOS. If you encounter issues on other operating systems, please report them in the [Issues](https://github.com/your-repo/issues) section of this repository.
 
 ## Example Command
 
