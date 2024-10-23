@@ -76,7 +76,8 @@ python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$
 ## Example Command
 
 ```bash
-source_folder="/Users/ruizhang/Desktop/input_folder" excel_template="/Users/ruizhang/Desktop/Correction_matrix.xlsx"
+source_folder="/Users/ruizhang/Desktop/input_folder" 
+excel_template="/Users/ruizhang/Desktop/Correction_matrix.xlsx"
 target_folder="/Users/ruizhang/Desktop/output_folder"
 
 python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$target_folder"
