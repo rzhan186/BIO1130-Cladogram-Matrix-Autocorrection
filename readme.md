@@ -35,13 +35,13 @@ Before using this script, please ensure the following:
 
 Download the script named `cladogram_matrix_autocorrection.py` from this repository and save it to a location on your desktop.
 
-### Step 2: Prepare the Input Folder
+### Step 2: Prepare the Input_folder
 
-1. Download all students' matrix files into a folder named `input folder` on your desktop.
+1. Download all students' matrix files into a folder named `input_folder` on your desktop.
 
 2. Adjust the file paths in the command below to match your environment:
 
-   - Replace `/Users/ruizhang/Desktop/input folder` with the full path to your input folder.
+   - Replace `/Users/ruizhang/Desktop/input_folder` with the full path to your input folder.
    - Specify the file path for the password-removed correction matrix.
    - Specify the folder where you want the auto-corrected matrices to be saved.
 
@@ -62,10 +62,10 @@ python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$
 
 ### What the Script Does
 
-1. Iterates through each Excel file in the specified `input folder`.
+1. Iterates through each Excel file in the specified `input_folder`.
 2. Uses the password-removed correction matrix as a template for comparing and correcting each student's matrix.
 3. Extracts the content of cell `H1` from each student's file to name the output PDF.
-4. Saves the corrected matrix in the specified `output folder` with a filename in the format `XX_corrected.pdf`, where `XX` is the value from cell `H1`.
+4. Saves the corrected matrix in the specified `output_folder` with a filename in the format `XX_corrected.pdf`, where `XX` is the value from cell `H1`.
 
 
 ## Toubleshooting
