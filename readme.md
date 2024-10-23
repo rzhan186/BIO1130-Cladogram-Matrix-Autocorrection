@@ -65,6 +65,11 @@ python3 cladogram_matrix_autocorrection.py "$source_folder" "$excel_template" "$
 4. Saves the corrected matrix in the specified `output folder` with a filename in the format `XX_corrected.pdf`, where `XX` is the value from cell `H1`.
 
 
+## Toubleshooting
+1. The program might ask you to "grant access" during each iteration of the student's file, you can adjust the system privacy seeting to allow full disk access by Excel to solve this issue.
+2. if the student didn't not fill in their student number in their excel file, you program will prompt `Skipping file example_file.xlsx: H1 is empty.`In this case, you might want to manually fill in the student number for the student and run the program again.
+
+
 ## Example Command
 
 ```bash
